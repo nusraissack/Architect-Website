@@ -44,15 +44,19 @@ html {
   width: 50%;
   line-height: 9rem;
   letter-spacing: .2rem;
-  text-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.4;
-}
+  text-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.4);}
 
-.banner-p{
+.banner p{
   font-family: Joselin Slab, serif;
   font-size: 4rem;
   color: #fff;
   width: 70%;
   letter-spacing: 0.1rem;
   margin-bottom: 3rem;
-  text-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.4;
+  text-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.4);
+}
+
+.banner button{
+  width: 25rem;
+
 }
