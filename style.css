@@ -58,5 +58,7 @@ html {
 
 .banner button{
   width: 25rem;
+  height: 7rem;
+  background-color: #c29525;
 
 }
