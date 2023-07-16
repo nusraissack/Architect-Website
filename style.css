@@ -42,4 +42,7 @@ html {
   font-weight: 300;
   color: #fff;
   width: 50%;
+  line-height: 9rem;
+  letter-spacing: .2rem;
+  text-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.4;
 }
