@@ -44,7 +44,8 @@ html {
   width: 50%;
   line-height: 9rem;
   letter-spacing: .2rem;
-  text-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.4);}
+  text-shadow: 0 .3rem .5rem rgba(0, 0, 0, 0.4);
+}
 
 .banner p{
   font-family: "Joselin Slab", serif;
@@ -64,6 +65,8 @@ html {
   font-family: "Mulish", serif;
   font-size: 2rem;
   text-transform: uppercase;
-
+  color: #fff;
+  text-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
 
 }
