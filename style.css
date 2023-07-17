@@ -147,7 +147,7 @@ html {
 }
 
 .menu-link::before{
-  content: ;
+  content: attr(data-content);
 }
 
 .social-media {
