@@ -51,6 +51,9 @@ html {
 }
 
  @keyframes scale{
+  0%{
+    transform: scale(1.3);
+  }
   
  }
 
