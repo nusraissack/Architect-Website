@@ -79,8 +79,7 @@ html {
   letter-spacing: 0.2rem;
   text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
   opacity: 0;
-  animation: moveBanner 1s .5s
-  forwards;
+  animation: moveBanner 1s 0.5s forwards;
 }
 
 .banner p {
@@ -92,8 +91,7 @@ html {
   margin-bottom: 3rem;
   text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
   opacity: 0;
-  animation: moveBanner 1s .7s
-  forwards;
+  animation: moveBanner 1s 0.7s forwards;
 }
 
 .banner button {
@@ -109,16 +107,20 @@ html {
   box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
   cursor: pointer;
   opacity: 0;
-  animation: moveBanner 1s .9s
-  forwards;
+  animation: moveBanner 1s 0.9s forwards;
 }
 
-@keyframes moveBanner{
-0%{
-  transform: translateY(40rem) rotateY(-20deg);
+@keyframes moveBanner {
+  0% {
+    transform: translateY(40rem) rotateY(-20deg);
+  }
+  100% {
+    transform: translateY(0) rotateY(0);
+    opacity: 1;
+  }
 }
-100%{
-  transform: translateY(0) rotateY(0); 
-  opacity: 1;
-}
+
+.sidebar{
+  width: 40rem;
+  
 }
