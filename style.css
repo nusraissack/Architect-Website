@@ -107,5 +107,7 @@ html {
 }
 
 @keyframes moveBanner{
-
+0%{
+  transform: translateY(40rem) rotateY(-20deg);
+}
 }
