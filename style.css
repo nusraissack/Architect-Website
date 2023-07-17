@@ -144,10 +144,12 @@ html {
   font-family: "Baloo Da 2", serif;
   font-size: 4rem;
   color: #555;
+  position: relative;
 }
 
 .menu-link::before{
   content: attr(data-content);
+  position: absolute;
 }
 
 .social-media {
