@@ -146,6 +146,10 @@ html {
   color: #555;
 }
 
+.menu-link::before{
+  content: ;
+}
+
 .social-media {
   position: absolute;
   bottom: 3rem;
@@ -165,6 +169,7 @@ html {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  transition: background-color 0.3s;
 }
 
 .social-media i:hover{
