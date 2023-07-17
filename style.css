@@ -48,6 +48,8 @@ html {
   height: 100%;
   object-fit: cover;
   opacity: 0.5;
+  animation-name: scale;
+  animation-duration: 25s;
 }
 
  @keyframes scale{
