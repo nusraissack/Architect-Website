@@ -153,3 +153,8 @@ html {
   display: flex;
   justify-content: center;
 }
+
+.social-media i{
+  font-size: 2.2rem;
+  margin: 3rem;
+}
