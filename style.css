@@ -160,4 +160,8 @@ html {
   width: 4.5rem;
   height: 4.5rem;
   background-color: #777;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
