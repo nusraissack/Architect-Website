@@ -62,7 +62,16 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #fff;
+  font-family: 'Baloo Da 2', serif;
+  font-size: 1.6rem;
+  letter-spacing: .1rem;
 }
+
+.hamburger-menu span::before{
+  
+}
+
 .header {
   width: 100%;
   height: 100vh;
