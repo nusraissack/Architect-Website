@@ -56,6 +56,12 @@ html {
 .hamburger-menu span{
   position: absolute;
   left: 5rem;
+  width: 10rem;
+  height: 4rem;
+  background-color: #e2b646;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .header {
   width: 100%;
