@@ -68,9 +68,10 @@ html {
   letter-spacing: 0.1rem;
   opacity: 0;
   visibility: hidden;
+  transition: all .2s;
 }
 
-.hamburger-menu:hover span{
+.change .hamburger-menu:hover span{
   opacity: 1;
   visibility: visible;
 }
