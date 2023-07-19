@@ -596,5 +596,10 @@ html {
 }
 
 .social-list a{
-  
+  margin: 0 2rem;
+}
+
+.social-list i{
+  font-size: 2rem;
+  color: #a7a7a7;
 }
