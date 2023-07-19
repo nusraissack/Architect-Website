@@ -689,6 +689,14 @@ html {
     padding-bottom: 5rem;
   }
 
-  
+  .cards-wrapper{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+  }
+
+  .card{
+    
+  }
 
 }
