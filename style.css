@@ -659,7 +659,6 @@ html {
     font-size: 3rem;
   }
 
-
   .service:nth-child(1) {
     grid-column: 3/7;
   }
@@ -683,4 +682,8 @@ html {
   .service:nth-child(6) {
     grid-column: 11/15;
   }
+}
+
+@media(max-width: 1300px) {
+  
 }
