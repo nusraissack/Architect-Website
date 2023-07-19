@@ -696,7 +696,14 @@ html {
   }
 
   .card{
-    
+    margin-bottom: 8rem;
   }
+
+  .contact-wrapper{
+    width: 90%;
+    height: 55rem;
+  }
+
+  
 
 }
