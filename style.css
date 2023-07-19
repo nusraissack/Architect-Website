@@ -541,16 +541,22 @@ html {
   color: #4b4b4b;
   text-transform: uppercase;
   pointer-events: none;
+  transition: all 0.3s;
 }
 
-.input-label{
+.input-label {
   bottom: 3rem;
 }
 
-.message{
+.message {
   bottom: 6rem;
 }
 
-.field:focus ~ label{
+.field:focus ~ label {
+  transform: translateY(-3rem);
+  font-size: 1.2rem;
+}
+
+.submit-btn{
   
 }
