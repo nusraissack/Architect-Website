@@ -529,6 +529,10 @@ html {
   max-width: 45rem;
 }
 
+.field:focus{
+  
+}
+
 .input-group label {
   position: absolute;
   left: 0;
@@ -540,5 +544,9 @@ html {
 }
 
 .input-label{
-  
+  bottom: 3rem;
+}
+
+.message{
+  bottom: 6rem;
 }
