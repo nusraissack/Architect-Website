@@ -685,5 +685,10 @@ html {
 }
 
 @media(max-width: 1300px) {
+  .team{
+    padding-bottom: 5rem;
+  }
+
   
+
 }
