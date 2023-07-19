@@ -590,5 +590,11 @@ html {
 }
 
 .copyright{
+  font-family: 'Baloo Da 2', serif;
+  font-size: 1.6rem;
+  color: #a7a7a7;
+}
+
+.social-list a{
   
 }
