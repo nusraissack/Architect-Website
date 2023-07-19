@@ -185,6 +185,7 @@ html {
   right: -40rem;
   background-color: #fff;
   transition: right 0.5s;
+  z-index: 100;
 }
 
 .change .sidebar {
@@ -396,10 +397,12 @@ html {
   object-fit: cover;
   opacity: 0.8;
   border-radius: 0.5rem;
+  transition: opacity 0.3s;
 }
 
 .card:hover .card-img-wrapper img{
-  
+  opacity: .5;
+
 }
 
 .card-info{
