@@ -677,10 +677,10 @@ html {
   }
 
   .service:nth-child(5) {
-    grid-column: 12/15;
+    grid-column: 12/16;
   }
 
   .service:nth-child(6) {
-    grid-column: 11/14;
+    grid-column: 11/15;
   }
 }
