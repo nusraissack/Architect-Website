@@ -740,5 +740,11 @@ html {
     margin-bottom: 6rem;
   }
 
-  
+  .about-us-img-wrapper{
+    width: 40rem;
+  }
+
+  .about-us-img-wrapper img{
+    width: 100%;
+  }
 }
