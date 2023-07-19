@@ -472,7 +472,6 @@ html {
   width: 60%;
   height: 75rem;
   display: flex;
-  background-color: #fff;
   box-shadow: 0 3rem 7rem rgba(0, 0, 0, 0.5);
 }
 
@@ -483,6 +482,13 @@ html {
   background-size: cover;
 }
 
-.contact-right{
+.contact-right {
+  width: 65%;
+  background-color: #eee;
+  padding: 3rem 10rem 10rem 10rem;
+}
+
+.contact-heading{
+  font-family: 'Baloo Da 2', serif;
   
 }
