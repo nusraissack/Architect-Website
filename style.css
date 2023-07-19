@@ -271,3 +271,10 @@ html {
   color: #4b4b4b;
   margin-bottom: 6rem;
 }
+
+.underline{
+  width: 12rem;
+  height: .3rem;
+  background-color: #c29525;
+}
+
