@@ -263,3 +263,11 @@ html {
   align-items: center;
   padding: 7rem 0 10rem 0;
 }
+
+.section-heading{
+  font-family: 'Mulish', serif;
+  font-size: 5rem;
+  font-weight: 300;
+  color: #4b4b4b;
+  margin-bottom: 6rem;
+}
