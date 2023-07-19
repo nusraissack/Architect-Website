@@ -400,9 +400,11 @@ html {
 
 .card-info{
   position: absolute;
-  bottom: 2rem;
+  bottom: 0;
   padding: 2rem;
   text-shadow: 0 .2rem .5rem rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  visibility: hidden;
 }
 
 .card-info h2{
@@ -423,4 +425,23 @@ html {
 
 .card-info p{
   font-family: 'Baloo Da 2', serif;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  font-weight: 300;
+  color: #eee;
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+.card-info button {
+  width: 10rem;
+  height: 3rem;
+  background-color: #c29525;
+  border: none;
+  font-family: 'Baloo Da 2', serif;
+  font-size: 1.4rem;
+  line-height: 1.5rem;
+  color: #eee;
+  border-radius: 0.3rem;
+  box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
 }
