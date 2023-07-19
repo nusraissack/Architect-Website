@@ -287,7 +287,10 @@ html {
   grid-row-gap: 4rem;
 }
 
-
+.service{
+  width: 100%;
+  margin-bottom: 2rem;
+}
 
 .service:nth-child(1){
   grid-column: 4/7;
