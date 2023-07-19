@@ -659,20 +659,21 @@ html {
     font-size: 3rem;
   }
 
+
   .service:nth-child(1) {
-    grid-column: 4/7;
+    grid-column: 3/7;
   }
 
   .service:nth-child(2) {
-    grid-column: 3/6;
+    grid-column: 2/6;
   }
 
   .service:nth-child(3) {
-    grid-column: 4/7;
+    grid-column: 3/7;
   }
 
   .service:nth-child(4) {
-    grid-column: 11/14;
+    grid-column: 11/15;
   }
 
   .service:nth-child(5) {
