@@ -379,6 +379,8 @@ html {
   width: 37rem;
   height: 45rem;
   box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4);
+  border-radius: 0.5rem;
+  position: relative;
 }
 
 .card-img-wrapper{
@@ -392,4 +394,20 @@ html {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  opacity: 0.8;
+  border-radius: 0.5rem;
+}
+
+.card-info{
+  position: absolute;
+  bottom: 2rem;
+  padding: 2rem;
+}
+
+.card-info{
+  font-family: 'Baloo Da 2', serif;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: 300;
+  color: #eee;
 }
