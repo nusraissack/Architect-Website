@@ -633,4 +633,14 @@ html {
     width: 80%;
     height: 65rem;
    }
+
+   .footer-content{
+    width: 80%;
+   }
+}
+
+@media(max-width: 1400px) {
+  .banner h1{
+    
+  }
 }
