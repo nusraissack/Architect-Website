@@ -714,5 +714,12 @@ html {
 }
 
 @media (max-width: 1000px) {
-  
+  .banner h1{
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+
+  .banner p{
+    
+  }
 }
