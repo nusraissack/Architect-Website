@@ -780,3 +780,9 @@ html {
     margin-top: 3rem;
   }
 }
+
+@media (max-width: 700px) {
+  .banner h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
