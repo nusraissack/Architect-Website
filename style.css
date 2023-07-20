@@ -755,4 +755,12 @@ html {
   .contact-right{
     width: 100%;
   }
+
+  .field{
+    width: 55rem;
+  }
+
+  .input-group textarea{
+    
+  }
 }
