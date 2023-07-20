@@ -748,5 +748,11 @@ html {
     width: 100%;
   }
 
-  
+  .contact-left{
+    width: 0;
+  }
+
+  .contact-right{
+    width: 100%;
+  }
 }
