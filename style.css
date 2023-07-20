@@ -714,53 +714,69 @@ html {
 }
 
 @media (max-width: 1000px) {
-  .banner h1{
+  .banner h1 {
     font-size: 5rem;
     line-height: 6rem;
   }
 
-  .banner p{
-   font-size: 2.5rem; 
+  .banner p {
+    font-size: 2.5rem;
   }
 
-  .banner button{
+  .banner button {
     width: 18rem;
     height: 4rem;
     font-size: 1.5rem;
   }
 
-  .services{
+  .services {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .service{
+  .service {
     width: 40rem;
     margin-bottom: 6rem;
   }
 
-  .about-us-img-wrapper{
+  .about-us-img-wrapper {
     width: 40rem;
   }
 
-  .about-us-img-wrapper img{
+  .about-us-img-wrapper img {
     width: 100%;
   }
 
-  .contact-left{
+  .contact-left {
     width: 0;
   }
 
-  .contact-right{
+  .contact-right {
     width: 100%;
   }
 
-  .field{
+  .field {
     width: 55rem;
   }
 
-  .input-group textarea{
-    
+  .input-group textarea {
+    max-width: 55rem;
+  }
+
+  .submit-btn {
+    width: 55rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+  }
+
+  .copyright {
+    order: 1;
+    margin-top: 3rem;
   }
 }
